@@ -10,8 +10,6 @@ module DryModel
       @application ||= DryModel::Application.new
     end
     def setup
-      
-      puts "Its here"
       application.setup!
       yield application
     end
